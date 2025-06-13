@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { increment, decrement, reset, incrementByAmount } from './features/counter/CounterSlice'
+import { increment, decrement, reset, incrementByAmount } from './features/counter/counterSlice'
+
 
 
 const App = () => {
